@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+    <title>Home Page</title>
+  </head>
+  <body>
+    <h1>Hey folks, Welcome to Pratham University!</h1>
+
+    <form action="/addUser" method="POST" target="_blank" id="signupForm">
+      <div class="field">
+        <label for="email">Email: </label>
+        <input
+          type="email"
+          id="email"
+          placeholder="jane@email.com"
+          name="email"
+          required
+        />
+      </div>
+      <div class="field">
+        <label for="username">Username: </label>
+        <input
+          type="text"
+          id="username"
+          placeholder="Jane Doe"
+          name="username"
+          required
+        />
+      </div>
+      <div class="field">
+        <label for="password">Password: </label>
+        <input
+          type="password"
+          id="password"
+          placeholder="password"
+          name="password"
+          required
+        />
+      </div>
+
+      <button id="formBtn" type="submit">Create Account</button>
+    </form>
+    <p style="margin-top: 2rem; color: #555; font-size: 0.95rem">
+      Want the source code?
+      <a
+        href="https://github.com/imprathamraj/my-docker-node-app"
+        target="_blank"
+        style="color: coral; text-decoration: none; font-weight: 600"
+        >Reach out here on GitHub</a
+      >.
+    </p>
+
+    <p style="color: #777; font-size: 0.9rem">
+      Thanks for visiting Pratham University 🚀
+    </p>
+  </body>
+</html>
