@@ -8,6 +8,8 @@ services:
     environment:
       MONGO_INITDB_ROOT_USERNAME: admin
       MONGO_INITDB_ROOT_PASSWORD: 1234
+    volumes:
+    - /Users/rjpra/OneDrive/Desktop/Docker/Data:/data/db
 
   mongo-express:
     image: mongo-express
